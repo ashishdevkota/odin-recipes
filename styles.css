@@ -1,0 +1,116 @@
+* {
+  box-sizing: content-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: cadetblue;
+  scroll-behavior: smooth;
+  color: #191c1f;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  padding: 20px;
+  text-align: center;
+}
+
+.container .main-heading {
+  word-spacing: 2px;
+  margin: 10px;
+  padding: 20px;
+  color: #fff;
+  font-size: 40px;
+}
+
+img#cook {
+  height: auto;
+  width: 600px;
+  border-radius: 8px;
+}
+
+.food-section {
+  text-align: left;
+}
+
+.food-section > ul > li > a {
+  color: darkred;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.food-section > ul > li > a:hover {
+  color: #fff;
+}
+
+/* pages  */
+
+.item-container {
+  padding: 5px;
+}
+
+.main-heading.item-heading {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.thumbnail {
+  width: 400px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.description-heading {
+  letter-spacing: 2px;
+}
+
+.description {
+  padding: 0 30px;
+}
+
+.ingredients,
+.steps {
+  list-style: disc;
+  text-align: left;
+  padding: 10px 40px;
+}
+
+.links {
+  padding: 20px;
+  text-align: left;
+}
+.links > a {
+  text-decoration: none;
+  color: darkred;
+  margin-right: 10px;
+}
+
+.links > a:hover {
+  color: rgba(139, 0, 0, 0.569);
+}
+
+.movetotop {
+  position: absolute;
+  right: 0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+}
